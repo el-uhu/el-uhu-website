@@ -1,0 +1,43 @@
+<ul id="sb-menu" class="menu-list">
+  {{ range .Site.Pages }}
+  {{ if eq .Params.type "index" }}
+  <li>
+    <a href="{{ .Site.BaseURL}}/{{ .Site.LanguagePrefix}}/#{{ .Title | urlize }}">
+      {{ with .Params.headericon }}
+      <i class="{{ . }}"></i>
+      {{ end }}
+      {{ .Title }}
+    </a>
+  </li>
+  {{ end}}
+  {{ end }}
+  {{ range .Site.Sections }}
+  <li>
+    <a href="{{ .Permalink }}">
+      {{ with .Params.headericon }}
+      <i class="{{ . }}"></i>
+      {{ end }}
+      {{ .Title }}
+    </a>
+  </li>
+  {{ end }}
+
+  <hr>
+
+  <p class="menu-label">Table of Contents</p>
+  <ul class="menu-list toc" data-toc="div#contents" data-toc-headings="h1,h2"></ul>
+
+  {{ if .IsTranslated }}
+  <p class="menu-label"> {{ i18n "translations" }}</p>
+  <ul class="menu-list">
+    {{ range .Translations }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+    </li>
+    {{ end}}
+  </ul>
+  {{ end }}
+
+</ul>
+<hr>
+{{ partial "tags.html" .}}

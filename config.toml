@@ -1,0 +1,21 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "//el-uhu"
+theme = "bulma-base"
+
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "//el-uhu"
+    description = "A short description"
+    weight = 1
+
+    [language.en.newsletter]
+      title = "Subscribe"
+
+
+[params.logo]
+    mobile = "/img/logo.svg"
+    standard  = "/img/logo.svg"
+    notext = "/img/logo.svg"

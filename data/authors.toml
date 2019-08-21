@@ -1,0 +1,21 @@
+[ lukas-hutter ]
+  name = "Lukas Hutter"
+  featured = "/img/luki.jpg"
+  [lukas-hutter.trained]
+    en = "Systems Biologist"
+    de = "Systems Biologist"
+  [lukas-hutter.role]
+    en = "Teacher"
+    de = "Teacher"
+  [ lukas-hutter.bio ]
+    en = "Lukas first trained as a chemist at Graz University of Technology and conducted research on optical chemical  sensors, nanoparticles and functional ceramics. He then switched to systems biology and recently finished his PhD at University of Oxford. His research interests include: **bits and atoms**, **self-organisation and the origin of life**, **functional chemical interfaces**, and **principles of regulation in biological systems**."
+    de = "Lukas studierte zunächst Chemie an der TU Graz, und forschte in diesem Rahmen an optischen Chemosensoren, Nanopartikeln und funktionalen Keramiken. Im Anschluß daran wechselte er zur Biologie, und schloß Ende 2016 sein Doktorat im Bereich Systembiologie an der University of Oxford ab. Seine Forschungsinteressen beinhalten: Bits und Atome, Selbstorganisation und die Entstehung des Lebens, funktionale chemische Schnittstellen und die Grundlagen von biologischer Regelungsprozesse."
+  website = "https://www.researchgate.net/profile/Lukas_Hutter2"
+  email = "luki@biotop.co"
+  github = "el-uhu"
+  twitter = "el_uhu"
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""

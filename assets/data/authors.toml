@@ -1,0 +1,21 @@
+[ test-author ]
+  name = "Demian Meta"
+  featured = "/img/avatar-placeholder.png"
+  [test-author.trained]
+    en = "Job"
+    de = "Job"
+  [test-author.role]
+    en = "Role"
+    de = "Rolle"
+  [ test-author.bio ]
+    en = "Short paragraph about author"
+    de = "Kurzer Absatz über den Autor"
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""

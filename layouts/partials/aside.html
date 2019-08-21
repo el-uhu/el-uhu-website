@@ -1,0 +1,20 @@
+<aside class="menu is-hidden-mobile">
+  <div class="tabs">
+    <ul>
+      <li class="tab is-active" onclick="openTab(event,'content-sb-tab-menu')"><a class="menu-label">{{ i18n "menu" }}</a></li>
+      <li class="tab" onclick="openTab(event,'content-sb-tab-calendar')"><a class="menu-label">{{ i18n "calendar" }}</a></li>
+    </ul>
+  </div>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="content-tab" id="content-sb-tab-menu">
+      {{ partial "menu.html" . }}
+    </div>
+    <div class="content-tab" id="content-sb-tab-calendar" style="display:none">
+      <ul id="sb-cal" class="menu-list">
+        {{ partial "calendar.html" . }}
+      </ul>
+    </div>
+  </div>
+</aside>
