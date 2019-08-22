@@ -23,14 +23,14 @@ tags = ["biology", "year-5", "biomolecules", "membranes", "diffusion", "osmosis"
 {{<mermaid>}}
 graph TD
       B-->A[fas:fa-globe-europe Biosphere</br><small>The Earth</small>]
-      C-->B[fas:fa-city Ecosystem </br><small>All living things and physical surroundings in a given area </small>]
-      D-->C[fas:fa-kiwi-bird fas:fa-tree fas:fa-bug Community</br><small>Interacting populations</small>]
-      E-->D[fas:fa-kiwi-bird fas:fa-kiwi-bird fas:fa-kiwi-bird Population</br><small> All members of a species in a given habitat</small>]
-      F-->E[fas:fa-kiwi-bird Organism</br><small>A single individual</small>]
-      G-->F[fas:fa-heart fas:fa-tint </br><small>Organ system</br><i>Organs that work togehter to perform a function</i></small>]
-      H-->G[fas:fa-heart </br><small>Organ</br><i>e.g. the heart</i></small>]
-      I-->H[fas:fa-grip-horizontal </br><small>Tissue</br><i>Cells working together to perform a function </i></small>]
-      J-->I[fas:fa-dot-circle Cell</br><small>Tissue</br><i>The basic unit of life </i></small>]
+      C-->B[fas:fa-city Ecosystem - <small>All living things and their physical surroundings in a given area </small>]
+      D-->C[fas:fa-kiwi-bird fas:fa-tree fas:fa-bug Community - <small>Interacting populations</small>]
+      E-->D[fas:fa-kiwi-bird fas:fa-kiwi-bird fas:fa-kiwi-bird Population - <small> All members of a species in a given habitat</small>]
+      F-->E[fas:fa-kiwi-bird Organism - <small>A single individual</small>]
+      G-->F[fas:fa-heart fas:fa-tint Organ system - <small><i>Organs that work togehter to perform a function</i></small>]
+      H-->G[fas:fa-heart Organ]
+      I-->H[fas:fa-grip-horizontal Tissue - <small><i>Cells working together to perform a function </i></small>]
+      J-->I[fas:fa-dot-circle Cell - <small><i>The basic unit of life </i></small>]
       K-->J[fas:fa-circle Organelle]
       L[fas:fa-atom Atom]-->K[fas:fa-dna Molecule]
 
