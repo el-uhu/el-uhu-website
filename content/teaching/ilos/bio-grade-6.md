@@ -152,6 +152,9 @@ following terms. They are your working vocabulary.
 **Brain Structure** ___A)___ Label the brain areas in the figure below. Make sure to include a short description of each of the following: _frontal lobe, thalamus, pineal gland, hindbrain, midbrain, forebrain, hypothalamus, cerebellum, medulla oblongata, basal ganglia, cerebrum, pituitary gland, pons, corpus callosum, prefrontal cortex_.
 ___B)___ Color the brain areas based on their function (_association, speech, hearing, vision, language, taste, touch, motor control_). Don’t forget to include a figure legend. Highlight the _endocrine glands_ by giving them a red outline.
 
+{{<rel-figure src="/img/teaching/ilos/bio-year-6/b.pdf">}}
+
+
 #### Key Learning Outcomes
 - **Grey matter vs. white matter**. Distinguish between grey matter and white matter in the brain. Where do you find them? What are they composed of?
 - **Compare and contrast the brain structure between a human and a mouse.** What are the main/ most obvious differences? How do they compare in terms of cortex area?
@@ -215,11 +218,11 @@ following terms. They are your working vocabulary.
 
 #### Key Learning Outcomes
 
-- Characterise the chemical gradients of the relevant ions inside and outside of the cell ($\ce{K+}$-ions, $\ce{Na+}$-ions, $\ce{Cl-}$-ions, large anions) What is the approximate concentration difference across the membrane?
-- Characterise the electrical gradient What is the difference in charge across the membrane?
-- Charactersie the interplay of electrical and chemical gradients across the membrane.
-- $\ce{Na+}$-$\ce{K+}$ -pump Describe the action of the $\ce{Na+}$-$\ce{K+}$-pump. How many ions of each type are transported across the membrane each time? In which direction? How does this transport of kations (positively charged ions) effect a negative membrane potential?
-- Characterise the membrane potential What does a negative membrane potential mean? How negative is it in mV? How can the membrane potential be explained in terms of concentriation gradients? How would an accumulation of kations/anions on the inside/outside of the cell affect the potential? How would opening/closing of the sodium and/or potassium ion channels affect the potential?
+- **Characterise the chemical gradients of the relevant ions inside and outside of the cell** ($\ce{K+}$-ions, $\ce{Na+}$-ions, $\ce{Cl-}$-ions, large anions) What is the approximate concentration difference across the membrane?
+- **Characterise the electrical gradient** What is the difference in charge across the membrane?
+- **Charactersie the interplay of electrical and chemical gradients across the membrane**.
+- **$\ce{Na+}$-$\ce{K+}$-pump** Describe the action of the $\ce{Na+}$-$\ce{K+}$-pump. How many ions of each type are transported across the membrane each time? In which direction? How does this transport of kations (positively charged ions) effect a negative membrane potential?
+- **Characterise the membrane potential** What does a negative membrane potential mean? How negative is it in mV? How can the membrane potential be explained in terms of concentriation gradients? How would an accumulation of kations/anions on the inside/outside of the cell affect the potential? How would opening/closing of the sodium and/or potassium ion channels affect the potential?
 - Under what circumstances could ions flow through an ion channel from a region of lower ion concentration to a region of higher ionconcentration?
 - Suppose a cell’s membrane potential shifts from -70 mV to -50 mV. What changes in the cell’s permeability to $\ce{K+}$ or $\ce{Na+}$ could cause such a shift?
 
@@ -227,7 +230,23 @@ following terms. They are your working vocabulary.
 
 > **Reading**: Kent _Advanced Biology_ p. 189-193
 
-**The neuronal membrane during an action potential** Draw a simple diagram of a neuronal membrane during an action potential. Distinguish inside and outside of the cell. Include: $\ce{Na+}$-$\ce{K+}$-pump, $\ce{K+}$-channels, $\ce{Na+}$-channels, $\ce{K+}$-ions, $\ce{Na+}$-ions. Characterise the five distinct stages. Illustrate what happens in each stage using a sketch of a membrane, and in a graph (membrane potential vs. time). Indicate the flow of ions using arrows. Indicate the relative abundance of $\ce{K+}$-ions and $\ce{Na+}$-ions inside and outside of the cell. (see figure 3)
+**The neuronal membrane during an action potential** Draw a simple diagram of a neuronal membrane during an action potential. Distinguish inside and outside of the cell. Include: $\ce{Na+}$-$\ce{K+}$-pump, $\ce{K+}$-channels, $\ce{Na+}$-channels, $\ce{K+}$-ions, $\ce{Na+}$-ions. Characterise the five distinct stages. Illustrate what happens in each stage using a sketch of a membrane, and in a graph (membrane potential vs. time). Indicate the flow of ions using arrows. Indicate the relative abundance of $\ce{K+}$-ions and $\ce{Na+}$-ions inside and outside of the cell. (see figure below)
+
+{{<rel-figure src="/img/teaching/ilos/bio-year-6/stages_action_potential.png">}}
+
+
+Key Learning Outcomes
+- **Compare and contrast resting potential and action potential** Which channels have opened/closed? How does this affect the concentration of sodium, potassium and chloride ions? How does the distribution of positive and negative charges change? How does the electrical potential across the membrane change in terms of mV?
+- **Characterise the role of voltage gated ions in establishing an action potential** What causes voltage gated ion channels to open? Which ions do they let through? Which way do they flow? Is this a case of active or passive transport?
+- **Hyperpolarisation and Depolarisation** Describe the situations that can lead to hyperpolarisation and depolarisation. Compare and contrast the two situations. At which stage of an action potential do hyperpolarisation and depolarisation occur naturally?
+- **Firing Threshold** What is the firing threshold of a neuron? What happens when the membrane potential reaches a value more positive than the threshold? (see figure below)
+
+{{<rel-figure src="/img/teaching/ilos/bio-year-6/neuronal_potentials.png">}}
+
+- **Conduction of action potentials** Using a simple diagram and a couple of sentences, describe how the different stages of an action potential enable the propagation of a stiumlus along a neurone in a directed manner. (See figure 4)
+
+{{<rel-figure src="/img/teaching/ilos/bio-year-6/ap_propagation.png">}}
+
 
 ### Synapses and Neurotransmitters
 
@@ -247,13 +266,61 @@ following terms. They are your working vocabulary.
 
 #### Key Learning Outcomes
 - **Compare and contrast electrical and chemical synapses** How do they function? Do they serve a different puprose? Where would you find them? How abundant are they?
-- Describe the sequence of events leading to the transmission of a
-signal across a synapse.
-
-
-
+- Describe the **sequence of events leading to the transmission of a signal** across a synapse.
+- **The effect of neurotransmitters** Describe how different neurotransmitters can affect the postsynaptic cell in different ways.
+- Using different ligand gated ion channels and their effect on the postsynaptic membrane potential, describe how a presynaptic cell could excite or inhibit a postsynaptic cell. Give two to three examples of neurotransmitters and their action.
+- **Clearing of the neurotransmitter** Describe how neurotransmitters are cleared from the synaptic cleft and explain why fast clearance of neurotransmitters from the synaptic cleft may be important.
+- **The importance of chemical synapses** Explain the concepts of **summation** and **modulation**, and explain how these processes are vital for complex information processing in the brain.
+- **Drugs** Explain how a drug or neurotoxin affects the brain by interfering with synaptic signalling.
 
 ## Sensory systems
 
+> **Reading**: Kent _Advanced Biology_ p. 196-195
+
+**Basic Definitions** You should be able to provide a definition of the following terms. They are your working vocabulary.
+
+- Stimulus
+- Receptor
+- Transduction vs. transmission
+- Adaptation
+- Sensory neurone vs. sensory receptors
+
+#### Key Learning Outcomes
+- **Receptor types** Classify receptors based on what they detect (_mechanoreceptor, thermoreceptor, chemoreceptor, photoreceptor, electroreceptor_) and give examples for each.
+- **Skin structure** Draw a diagram of the skin, identify and label the following structures: _Cornified layer, epidermis, dermis, blood vessels, hair, follicle, hair erector muscle, sebaceous gland, sweat glands, adipose tissue, pressure receptor (Pacinian corpuscle), Pain receptors, Malpighian layer._
+- Describe the **structure of a Pacinian corpuscle** and explain how is converts pressure into a nervous impulse.
+
+### The eye - Sense of sight
+
+> **Reading**: Kent _Advanced Biology_ p. 202-205
+
+**Structure of the Eye** Draw a diagram of an eye (side-ways cross-section) and label the following structures: _Sclera, choroid layer, retina, cornea, iris, pupil, lens, aqueous humor, vitreous humor, ciliary body, suspensory ligaments, yellow spot (fovea), blind spot, optic nerve._ (Similar to the figure below)
+
+{{<rel-figure src="/img/teaching/ilos/bio-year-6/eye.jpg">}}
+
+#### Key Learning Outcomes
+- **Describe the receptors you find in the eye** Where do you find the photoreceptors? Are they sensory neurones or sensory receptors? Which different kinds of photoreceptors do you find in the retina?
+- **Distinguish cone cells and rod cells** based on shape, function, sensitivity, connectivity and distribution (see figure below).
+
+{{<rel-figure src="/img/teaching/ilos/bio-year-6/coneroddist.png">}}
+
+- **Describe the structure of the retina at the fovea and at the blind spot**.
+- A photon from the environment triggers an action potential. Describe the structures it passes throuch upon entering the eye and the events that need to happen in order for an action potential to be triggered. What is a photopigment and what is its job in detecting photons that pass through receptor cells?
+- **Aperture** Describe how muscle contraction and relaxation allows for the iris to change size. Link these changes to light levels.
+- **Accomodation** Describe how the ciliary body and suspensory ligaments allow the lens to change shape. How would this affect the focus?
+- State what is meant by **visual acuity** and explain why there is a difference in visual acuity between rod and cone cells.
+- **Connectivity** Describe what is meant by convergence. How does convergence of rods affect visual acuity in low-light conditions?
+
+
+### The ear - Sense of hearing
+
+> **Reading**: Kent_ Advanced Biology_ p. 198-201
+
+**Structure of the Ear** Draw a diagram of the human ear. Identify and label with function the following structures _Pinna, ear canal, ear drum, hammer (malleus), anvil (incus), stapes (stirrup), eustachian tube, oval window, cochlea, semi circular canals, outer ear, middle ear_ and _inner ear_.
+
+#### Key Learning Outcomes
+- **Describe the structure of the cochlea** and explain how that allows mechanical sound waves to be turned into nervous impulses.
+- **Describe the structure of the semi-circular canals** and how the structure allows for the sense of balance.
+- Explain why you are advised to yawn when on a flight which is ascending or descending.
 
 # The Immune System

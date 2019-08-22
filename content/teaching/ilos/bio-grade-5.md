@@ -10,7 +10,15 @@ linktitle = ""
 type = ""
 tags = ["biology", "year-5", "biomolecules", "membranes", "diffusion", "osmosis", "nutrition", "what-is-life", "photosynthesis", "cellular-respiration", "microbiology"]
 +++
+
+
 # What is Life?
+
+## Levels of Organisation
+
+
+- Explain the concepts of system (part <=> whole) & emergence.
+- Classify (parts of) living things according to their level of biological organisation (cells, tissues, organs, organ systems, organism, population, community, ecosystem, biosphere)
 
 {{<mermaid>}}
 graph TD
@@ -31,17 +39,90 @@ graph TD
 {{</mermaid>}}
 
 # Biomolecules
-## Water
+> **Prerequisites - Water**
+> -  Review the physical and chemical properties of water. How is water different from similar small molecules? (-> _Anomalies of water_) How might these properties affect/afford life?
+
+**Basic Definitions** You should be able to provide a definition of the following terms. They are your working vocabulary.
+
+- Monomer vs. polymer
+- Organic molecule
+
+## DNA
+
+{{<rel-figure src="/img/teaching/ilos/bio-year-5/dna.jpg">}}
+
+**Basic Definitions** You should be able to provide a definition of the following terms. They are your working vocabulary.
+
+- Nucleobase
+- Nucleoside
+- Nucleotide
+- Triplet
+- Double helix
+- Ribose vs. Deoxyribose
+
+**Nucleid acid structure** Sketch the structure of a single nucleotide without chemical detail and explain how nucleotides get assembles into strands of nucleotides.
+
+#### Key Learning Outcomes
+- **Compare and contrast composition (bulding blocks), function and shape of nucleic acids, proteins, lipids and carbohydrates** using a table.
+- **RNA vs DNA** Wow are RNA and DNA different from a structural and a functional viewpoint?
+- **The Genetic Code** What is a gene? What do we need genes for? How many genes does a human have? How are DNA, RNA and proteins related? How can 20 amino acids be encoded using just four letters?
+- **Watson Crick Model** Describe the 3D structure of DNA. Include the following terms in your description: _nucleotide, sugar-phosphate-backbone, strand, base pairing, helix_
+- In spite of being close to 2m long in a human cell, DNA is too small to observe directly. How do we know what we know about the structure of nucleic acids?
+
 ## Proteins and Amino Acids
-## Nucleic Acids
+
+**Basic Definitions** You should be able to provide a definition of the following terms. They are your working vocabulary.
+
+- Amino acid
+- Peptide bond
+- Active site
+- Hydrophobic vs Hydrophilic
+
+#### Key Learning Outcomes
+- List the major functions proteins perform in living things and give examples.
+- Distinguish between primary, secondary, tertiary and quarternary structure.
+- What is a structural motif and how is it useful in discussing proteins?
+- List the chemical forces that give rise to secondary structure in proteins and can describe how secondary structure arises.
+- Compare and contrast the major secondary structure motifs, including $\alpha$-helices and $\beta$-sheets.
+
 ## Sugars and Polysaccharides
-## Fats and Lipids
+## Lipids and Membranes
 
-# Membranes
-# Diffusion and Osmosis
+**Basic Definitions** You should be able to provide a definition of the following terms. They are your working vocabulary.
 
-# Microbiology
+- Hydrocarbon chain
+- Amphiphilic
 
-# Photosynthesis
+**Structure of lipids and membranes**  ___A)___ Draw a diagram of the membrane, and label it using the terms – _phosphate head, fatty acid tails, hydrophobic, hydrophilic, intrinsic proteins, extrinsic proteins, channel proteins, glycoproteins, glycolipid_.
+___B)___ Draw a schematic of a phospholipid and explain why phospholipids will form a bilayer.
 
-# Cellular Respiration
+## Key Learning Outcomes
+- **Fluid Mosaic Model** Explain the name”fluid mosaic model”. Give examples of different types of membrane proteins.
+- List factors that can affect the permeability of a membrane.
+
+## Diffusion and Osmosis
+
+#### Key Learning Outcomes
+- Explain diffusion in terms of spontaneous movement, concentration gradients and thermal energy.
+- Define the term **permeability** and explain what it has to do with diffusion and osmosis.
+- Compare and contrast different ways (active and passive) in which a molecule can pass across a membrane. Include: _diffusion, facilitated diffusion, active transport_.
+- Compare and contrast diffusion and osmosis.
+- How are diffusion and osmosis important for biological systems? Give examples.
+- Define diffusion – give example of a molecule which will move...
+    - through the phospholipid bilayer by diffusion
+    - through channel proteins by diffusion
+    - through proteins by “facilitated” diffusion
+    - require active transport to move through the membrane.
+- Define osmosis and describe how osmosis works using the terms strong solution / weak solution or concentrated solution / less concentrated
+
+
+# Cells
+## Cell Theory
+## Eukaryotic vs. Prokaryotic Cells
+## Organelles of eukaryotic cells
+
+
+# Biological Energy
+## Photosynthesis
+
+## Cellular Respiration
