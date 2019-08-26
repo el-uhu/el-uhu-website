@@ -8,8 +8,12 @@ DefaultContentLanguage = "en"
   [languages.en]
     languageName = "English"
     title = "//el-uhu"
-    description = "A short description"
+    description = "SCIENCE | TEACHING | DATAVIS | MISC"
     weight = 1
+    about = """\
+Hi! My name is **Lukas Hutter** and I'm a scientist, teacher and webdesigner.\n
+As a scientist, I'm interested in the Origin of Life, chemical computers and computation in general.\n
+"""
 
     [language.en.newsletter]
       title = "Subscribe"
@@ -19,3 +23,4 @@ DefaultContentLanguage = "en"
     mobile = "/img/logo.svg"
     standard  = "/img/logo.svg"
     notext = "/img/logo.svg"
+    heroImg = "/img/luki-full.jpg"

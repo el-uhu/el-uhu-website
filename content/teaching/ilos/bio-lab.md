@@ -3,12 +3,12 @@ title = "Bio Lab"
 authors = ["lukas-hutter"]
 date = "2019-08-21T14:52:56+02:00"
 description = ""
-featured = "/img/image-placeholder.png"
+featured = "/img/teaching/ilos/bio-lab-year-5/elodea.png"
 featuredVideo = ""
 featuredVimeo = ""
 linktitle = ""
 type = ""
-tags = ["test-tag1", "test-tag2"]
+tags = ["working-safely", "microscopy", "experimental-design", "dissection", "sampling", "year-5"]
 +++
 
 #Heading 1

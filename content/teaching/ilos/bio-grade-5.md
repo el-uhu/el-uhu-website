@@ -8,7 +8,7 @@ featuredVideo = ""
 featuredVimeo = ""
 linktitle = ""
 type = ""
-tags = ["biology", "year-5", "biomolecules", "membranes", "diffusion", "osmosis", "nutrition", "what-is-life", "photosynthesis", "cellular-respiration", "microbiology"]
+tags = ["biology", "year-5", "biomolecules", "what-is-life", "metabolism", "microbiology", "metabolism"]
 +++
 
 
@@ -82,7 +82,7 @@ graph TD
 - List the major functions proteins perform in living things and give examples.
 - Distinguish between primary, secondary, tertiary and quarternary structure.
 - What is a structural motif and how is it useful in discussing proteins?
-- List the chemical forces that give rise to secondary structure in proteins and can describe how secondary structure arises.
+- List the chemical forces that give rise to secondary structure in proteins. How does secondary structure arise?.
 - Compare and contrast the major secondary structure motifs, including $\alpha$-helices and $\beta$-sheets.
 
 ## Sugars and Polysaccharides
@@ -96,7 +96,7 @@ graph TD
 **Structure of lipids and membranes**  ___A)___ Draw a diagram of the membrane, and label it using the terms – _phosphate head, fatty acid tails, hydrophobic, hydrophilic, intrinsic proteins, extrinsic proteins, channel proteins, glycoproteins, glycolipid_.
 ___B)___ Draw a schematic of a phospholipid and explain why phospholipids will form a bilayer.
 
-## Key Learning Outcomes
+#### Key Learning Outcomes
 - **Fluid Mosaic Model** Explain the name”fluid mosaic model”. Give examples of different types of membrane proteins.
 - List factors that can affect the permeability of a membrane.
 
@@ -121,8 +121,10 @@ ___B)___ Draw a schematic of a phospholipid and explain why phospholipids will f
 ## Eukaryotic vs. Prokaryotic Cells
 ## Organelles of eukaryotic cells
 
-
-# Biological Energy
+# Metabolism
 ## Photosynthesis
-
 ## Cellular Respiration
+## Human Biology
+### Nutrition & Digestion
+### Excretion
+### Respiration

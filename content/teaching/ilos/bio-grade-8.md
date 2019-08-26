@@ -3,116 +3,130 @@ title = "Bio Grade 8"
 authors = ["lukas-hutter"]
 date = "2019-08-21T14:53:07+02:00"
 description = ""
-featured = "/img/image-placeholder.png"
+featured = "/img/teaching/ilos/bio-year-8/ribosome.jpg"
 featuredVideo = ""
 featuredVimeo = ""
 linktitle = ""
 type = ""
-tags = ["test-tag1", "test-tag2"]
+tags = ["genetics", "evolution", "biotehics", "molecular-biology", "biotechnology", "year-8", "biology"]
 +++
 
-#Heading 1
+# Genetics
 
-##Heading 2
+## Evolution
 
-###Heading 3
+**Basic Definitions** You should be able to provide a definition of the
+following terms. They are your working vocabulary.
 
-####Heading 4
+- **Allele**
+- **Recessive vs. Dominant**
+- **Mutation**
+- **Selection**
+- **Evolution**
 
-#####Heading 5
+### Mendelian Genetics
 
-######Heading 6
+#### Key Learning Outcomes
+- **Mendelian genetics**
 
----
 
-Paragraph
-text `Inline Code` text
-~~Mistaken text.~~
-*Italics*
-**Bold**
+- Darwinian Selection
 
----
 
-Tasks
-- [ ] a task list item
-- [ ] list syntax required
-- [ ] normal **formatting**
-- [ ] incomplete
-- [x] completed
+## Nucleic acids
 
----
+**Basic Definitions** You should be able to provide a definition of the
+following terms. They are your working vocabulary.
 
-Code Blocks
+- **Histone**
+- **Nucleosome**
+- **Chromatin** -
+- **Chromatid** -
+- **Chromosome** -
+- **Codon**
 
-    4 space indention
-    makes full-width
-    standard code blocks
+#### Visual Skills
+- Sketch a diagram illustrating the composition of DNA/RNA without too much chemical detail.
+- Draw a diagram that explains the composition and arrangement of chromatin. Explain the structure in a short diagram. Include: What is a histone and how many subunits does it have? How many nucleotides does it take for the DNA to fully wrap around a histone once?
 
-```js
-var now = new Date();
+#### Key Learning Outcomes
+- Compare and contrast **structure of ribonucleic acids and deoxyribobnucleic acids** in terms of their _structure, function, cellular compartment, stability_.
+    - What are the four nucleobases found in DNA? How is RNA different?
+    - How can you describe the 3D stucture of DNA? What can you say about the 3D structure of RNA in general? Is DNA found in prokaryotes any different from eukaryotic DNA?
+    - How do the chemical properties of DNA and RNA relate to their respective functions?
+- **The many faces of RNA** What are the different functional classes of RNA? (_mRNA, tRNA, lncRNA, sRNA, rRNA_)
+    - What do their names mean?
+    - What is their function?
+    - Where in the cell do you find them?
+    - What is a ribozyme?
+    - What is the RNA World h
+- RNA World Hypothesis - Origin of life
 
-var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+#### Further Reading & Resources
+- [LibreTexts:Genetics](https://bio.libretexts.org/Bookshelves/Genetics/Book%3A_Online_Open_Genetics_(Nickle_and_Barrette-Ng)/01%3A_Overview%2C_DNA%2C_and_Genes) - A good and concise introduction to genetics focusing on some classic experiments that brought the field forward.
 
-var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+## Genes
 
-var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+## Replication
 
-function fourdigits(number)	{
-	return (number < 1000) ? number + 1900 : number;
-								}
-today =  days[now.getDay()] + ", " +
-         months[now.getMonth()] + " " +
-         date + ", " +
-         (fourdigits(now.getYear())) ;
+#### Key Learning Outcomes
 
-document.write(today);
-```
+- Template strands
+- What are the enzymes involved?
+- When does replication take place?
+- How can we replicate DNA in the lab? (PCR, bacterial culture)
+- What is molecular cloning?
 
-```css
-#sc_drag_area {
-  height:100px;
-  left:150px;
-  position: absolute;
-  top:100px;
-  width:250px;
-  z-index: 9999;
-}
-```
 
----
+#### Key Learning Outcomes
+- Describe the steps involved in making protin according to a genetic sequence
+- What is the Genetic Code? (Triplets)
+- Does the central dogma always hold? What are exceptions?
+- How is transcription/translation different from an algorithm?
 
-* List item one
-* List item two
-* A nested item
+## Transcription
+#### Key Learning Outcomes
 
----
+- What is a gene? What is it composed of? What are the distinct reqions within a gene? What is their function?
+- What is a promotor?
+- What percentage of the genome is genes? How many genes are there?
+  - Reading the genome. (Sanger sequencing, Bioinformatics, Phylogenetics )
+  - What do we actually know about the human genome (HGP -> Stefan Beck)
+  - Cost/Complexity now vs then
+- Does the complexity of the genome correspond to the complexity of the organism? (Give examples)
+- Which factors are involved in the production of an RNA molecule from DNA?
+- What is a transcription factor?
+- Where does transcription take place?
 
-1. Number list item one
-	1.1. A nested item
-2. Number list item two
-3. Number list item three
+### Regulation
+#### Key Learning Outcomes
 
----
+- What is a cell type? How can one genome give rise to many types of cells?
+- How can transcription be regulated?
+- What are promotors, enhancers, repressors, insulators?
+- Lac Operon: Biological Circuit Design
+- How can chemical modification of chromatin affect transcription?
+- How can one genetic sequence give rise to many different protein variants? (Splicing)
+- What as a riboswitch?
+- Special Case Study: Gene dosage - xchromosome inactivation (Xist)
 
-> Quote
->
-> Second line Quote
+## Translation
+#### Key Learning Outcomes
 
----
+- Where does translation take place and what does it require?
+- Recap: Protein structure and cell organelles.
 
-Standard link =  http://ghost.org
-[Custom Text Link](http://ghost.org)
+## Biotechnology
+#### Key Learning Outcomes
 
----
+- Selective Breeding
+- Molecular Cloning
+- Gene Therapy, CRISPR
 
-![Image](https://dl.dropboxusercontent.com/u/41297054/Pic.jpeg)
+## Bioethics
+#### Key Learning Outcomes
 
----
-
-Table
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+- Eugenics
+- Designer Babies
+- Gene Drive
+- GMOs in Agriculture

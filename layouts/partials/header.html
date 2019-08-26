@@ -1,0 +1,24 @@
+<nav class="navbar is-transparent is-fixed-top">
+  <div class="container">
+    <div class="navbar-brand" style="z-index:50">
+      <!-- navbar items, navbar burger... -->
+      <a class="navbar-item" href="{{ .Site.BaseURL | relLangURL }}">
+        <img src="{{ .Site.Params.logo.standard | relURL }}">
+      </a>
+
+      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu" id="navMenu">
+      <!-- navbar-start, navbar-end... -->
+      <div class="navbar-end">
+        <div class="padded">
+          {{ partial "menu.html" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

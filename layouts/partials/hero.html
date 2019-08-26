@@ -1,0 +1,62 @@
+<div id="hero">
+<section class="hero is-fullheight has-background">
+  <img class="hero-background is-transparent" src="{{ .Site.Params.logo.heroImg | relURL }}" alt="">
+  <div class="hero-body">
+    <div class="container" style="z-index:2">
+      <figure class="image is-128x128">
+        <img class="center" src="{{ .Site.Params.logo.notext | relURL }}">
+      </figure>
+      <h2 class="subtitle">{{ .Site.Params.description | markdownify }}</h2>
+    </div>
+  </div>
+  <!-- Hero footer: will stick at the bottom -->
+</section>
+</div>
+</section>
+
+<section class="hero is-warning has-text-centered">
+  <div class="hero-body">
+    <h1 class="content"> {{ .Site.Params.about | markdownify }} </h1>
+
+  </div>
+</section>
+
+<section class="hero is-primary has-text-centered is-medium">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title hero-quote"> {{ i18n "about-biotop" }} </h1>
+      <div class="columns is-multiline is-centered">
+
+        {{ range .Site.RegularPages }}
+          {{ if eq .Params.type "index" }}
+            <div class="column is-one-third is-tablet">
+              {{ $pdict := (dict "data" . "imgSize" "is-64x64" "faSize" "fa-2x" "h1Size" "is-5" "h4Size" "is-6")}}
+              {{ partial "bubble.html" $pdict }}
+            </div>
+          {{ end}}
+        {{ end }}
+        {{ range .Sections }}
+          <div class="column is-one-third is-tablet">
+            {{ $pdict := (dict "data" . "imgSize" "is-64x64" "faSize" "fa-2x" "h1Size" "is-5" "h4Size" "is-6")}}
+            {{ partial "bubble.html" $pdict }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-light has-text-centered is-medium">
+  <div class="hero-body">
+    <h1 class="title hero-quote"> {{ i18n "recent-blogposts" }} </h1>
+    <div class="container">
+      <div class="columns is-multiline is-5 is-centered">
+        {{ range first 2 (where .Site.RegularPages ".Params.type" "blog") }}
+        <div class="column  is-three-quarters-mobile is-three-quarters-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd has-background-white card-align" style="margin:0.5em;">
+          {{ partial "card.html" . }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,38 @@
+{{ define "header" }}
+  {{ partial "hero.html" . }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "aside" }}
+  {{ partial "aside.html" . }}
+{{ end }}
+
+{{ define "main" }}
+
+  {{ range .Site.RegularPages }}
+    {{ if eq .Params.type "index" }}
+      <section class = "section" id="{{ .Title | urlize }}">
+        {{ $pdict := (dict "data" . "imgSize" "is-128x128" "faSize" "fa-3x" "h1Size" " " "h4Size" " ")}}
+        {{ partial "bubble.html" $pdict }}
+        <div class="content">
+
+          {{ with .Params.featured }}
+          <figure class="image">
+            <img src="{{ . }}" alt="">
+          </figure>
+          {{ end }}
+          {{ with .Params.subtitle }}
+            <h2 class="subtitle has-text-grey">{{.}}</h2>
+          {{ end }}
+          <p>{{ .Content }}</p>
+
+
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
+{{ end }}
+
+{{ define "custom-js" }}
+{{ end }}

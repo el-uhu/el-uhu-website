@@ -1,0 +1,39 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-list{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "aside" }}
+  {{ partial "aside.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{ partial "breadcrumb.html" . }}
+  <h1 class="title is-1">{{ .Title }}</h1>
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+  <section class="section is-hidden-desktop">
+    {{ partial "calendar.html" . }}
+  </section>
+
+  <section class="section">
+    <div class="columns is-multiline">
+      {{ range.Pages }}
+        <div class="column is-half">
+          <div class="card">
+            {{ partial "card.html" . }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+{{ end }}
+
+{{ define "custom-js"}}
+{{ end }}

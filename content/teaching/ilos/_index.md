@@ -3,7 +3,7 @@ title = "Intended Learning Outcomes"
 date = 2019-08-13
 draft = false
 headericon =  "fa fa-atom"
-description = "Short description"
+description = "Overview of intended learning outcomes organised by subject and year."
 +++
 
 These pages summarise key topics and intended learning outcomes for the corresponding years and subjects.

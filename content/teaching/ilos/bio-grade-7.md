@@ -3,12 +3,12 @@ title = "Bio Grade 7"
 authors = ["lukas-hutter"]
 date = "2019-08-21T14:53:05+02:00"
 description = ""
-featured = "/img/image-placeholder.png"
+featured = "/img/teaching/ilos/bio-year-7/muscle.jpg"
 featuredVideo = ""
 featuredVimeo = ""
 linktitle = ""
 type = ""
-tags = ["test-tag1", "test-tag2"]
+tags = ["animal-locomotion", "systematics", "ecology", "sustainability", "diseases", "year-7", "biology"]
 +++
 
 #Heading 1
