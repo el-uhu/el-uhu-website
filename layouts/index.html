@@ -4,10 +4,13 @@
 {{ end }}
 
 {{ define "aside" }}
+<div class="column is-hidden-mobile is-2">
   {{ partial "aside.html" . }}
+</div>
 {{ end }}
 
 {{ define "main" }}
+<div class="column is-half has-navbar-fixed-top">
 
   {{ range .Site.RegularPages }}
     {{ if eq .Params.type "index" }}
@@ -31,7 +34,7 @@
       </section>
     {{ end }}
   {{ end }}
-
+</div>
 {{ end }}
 
 {{ define "custom-js" }}

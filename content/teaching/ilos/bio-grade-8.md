@@ -18,7 +18,7 @@ tags = ["genetics", "evolution", "biotehics", "molecular-biology", "biotechnolog
 **Basic Definitions** You should be able to provide a definition of the
 following terms. They are your working vocabulary.
 
-- **Allele**
+- [**Allele**](https://www.youtube.com/watch?v=FsaYSGWuRmo)
 - **Recessive vs. Dominant**
 - **Mutation**
 - **Selection**
@@ -59,8 +59,7 @@ following terms. They are your working vocabulary.
     - What is their function?
     - Where in the cell do you find them?
     - What is a ribozyme?
-    - What is the RNA World h
-- RNA World Hypothesis - Origin of life
+    - What is the [RNA World Hypothesis](https://www.youtube.com/watch?v=K1xnYFCZ9Yg)
 
 #### Further Reading & Resources
 - [LibreTexts:Genetics](https://bio.libretexts.org/Bookshelves/Genetics/Book%3A_Online_Open_Genetics_(Nickle_and_Barrette-Ng)/01%3A_Overview%2C_DNA%2C_and_Genes) - A good and concise introduction to genetics focusing on some classic experiments that brought the field forward.
@@ -87,7 +86,7 @@ following terms. They are your working vocabulary.
 ## Transcription
 #### Key Learning Outcomes
 
-- What is a gene? What is it composed of? What are the distinct reqions within a gene? What is their function?
+- What is a [gene](https://www.youtube.com/watch?v=5MQdXjRPHmQ)? What is it composed of? What are the distinct reqions within a gene? What is their function?
 - What is a promotor?
 - What percentage of the genome is genes? How many genes are there?
   - Reading the genome. (Sanger sequencing, Bioinformatics, Phylogenetics )

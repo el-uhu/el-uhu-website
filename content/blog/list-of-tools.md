@@ -8,7 +8,7 @@ featuredVideo = ""
 featuredVimeo = ""
 linktitle = ""
 type = "blog"
-tags = ["list", "tools", "links"]
+tags = ["lists", "tools", "links"]
 
 +++
 # Texts
@@ -22,6 +22,11 @@ tags = ["list", "tools", "links"]
 - [mathjax](https://www.mathjax.org/) - A javascript library that allows you to render formulae using Latex syntax from a markdown file.
 - [mhchem](https://mhchem.github.io/MathJax-mhchem/) - A Latex package that's also supported by
 - [Escher](https://escher.github.io/#/) - Tool for visualising biological pahtways in the browser.
+- [A Friendly Guide to Color](https://blog.datawrapper.de/colorguide/?utm_campaign=Data_Elixir&utm_medium=email&utm_source=Data_Elixir_248) - A nice overview of resources for getting colors right in datavisualisation.
+
+### Neuroscience
+- [3D Brain](https://www.brainfacts.org/3d-brain#intro=false&focus=Brain)
+- [Brain Catalouge](https://braincatalogue.org/)
 
 # Lab
 - [Poseidon](https://pachterlab.github.io/poseidon/) - Open source, low cost syringe pumps.
@@ -36,6 +41,7 @@ tags = ["list", "tools", "links"]
 - [bio.js](https://biojs.net/#/) - Library for visualisation of biological data
 - [cytoscape](https://js.cytoscape.org/#top) - Javascript network visualisation library
 - [Seagull](https://github.com/ljvmiranda921/seagull) - A python library for simulating Conway's game of life
+- [Pyodide](https://alpha.iodide.io/notebooks/300/) - A project by mozilla that lets you run python natively in the browser (and includes the Numpy/scipy stack).
 
 ## Courses
 - [Data Carpentry for Biologists](http://datacarpentry.org/semester-biology/) - From the website: "This website hosts introductory material for teaching biologists how to interact with data including: data structure, database management systems, and programming for data manipulation, analysis, and visualization. It is designed to be used as a flipped university course and also to be useful for self-guided students. Instructors are welcome to modify and use the material for your own courses. We encourage collaborative development and contributions by instructors, with the hopes that this will lead to better training and resources for everyone."

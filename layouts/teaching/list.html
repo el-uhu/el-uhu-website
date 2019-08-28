@@ -7,10 +7,13 @@
 {{ end }}
 
 {{ define "aside" }}
+<div class="column is-hidden-mobile is-2">
   {{ partial "aside.html" . }}
+</div>
 {{ end }}
 
 {{ define "main" }}
+<div class="column is-half has-navbar-fixed-top">
   {{ partial "breadcrumb.html" . }}
   <h1 class="title is-1">{{ .Title }}</h1>
   <div class="content">
@@ -32,7 +35,7 @@
       {{ end }}
     </div>
   </section>
-
+</div>
 {{ end }}
 
 {{ define "custom-js"}}
