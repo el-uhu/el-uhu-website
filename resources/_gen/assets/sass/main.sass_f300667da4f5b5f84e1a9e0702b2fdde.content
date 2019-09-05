@@ -8808,6 +8808,9 @@ h1::before, h2::before, h3::before {
   visibility: hidden;
   pointer-events: none; }
 
+#logo {
+  display: none; }
+
 .padded {
   padding: 10px; }
 
@@ -8817,6 +8820,10 @@ h1::before, h2::before, h3::before {
 .has-padding-LR {
   padding-left: 4em;
   padding-right: 4em; }
+  @media (max-width: 768px) {
+    .has-padding-LR {
+      padding-left: 0em;
+      padding-right: 0em; } }
 
 .has-little-margin {
   margin-bottom: 0.1em !important; }
@@ -8843,10 +8850,6 @@ h1::before, h2::before, h3::before {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem; }
 
-.override-navbar {
-  z-index: 50;
-  position: relative; }
-
 .stretch {
   height: 100%;
   display: flex;
@@ -8854,15 +8857,19 @@ h1::before, h2::before, h3::before {
 
 .center {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center; }
 
-.opacity-80 {
-  opacity: 0.8; }
-
 @media (max-width: 768px) {
   .is-mobile-column {
-    flex-direction: column; } }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+
+@media (max-width: 768px) {
+  .is-mobile-wide {
+    width: 90%; } }
 
 .image.is-80percent {
   height: 80%; }
@@ -8902,6 +8909,10 @@ ul.toc > li > ul > li {
   display: flex;
   justify-content: space-between; }
 
+.content figure.image {
+  margin-left: -1.5em;
+  margin-right: -1.5em; }
+
 .feature-hero {
   z-index: 50;
   background: white; }
@@ -8910,6 +8921,36 @@ ul.toc > li > ul > li {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   z-index: 2; }
+
+.navbar {
+  height: 3.25rem; }
+
+.top-hero {
+  margin-top: 3.25rem; }
+
+.hero.is-large {
+  min-height: 75vh; }
+
+.hero.is-medium {
+  min-height: 50vh; }
+
+.hero.is-small {
+  min-height: 25vh; }
+
+.hero.is-fullheight.top-hero {
+  min-height: calc(100vh - 3.25rem); }
+
+.hero.is-large.top-hero {
+  min-height: calc(75vh - 3.25rem); }
+
+.hero.is-medium.top-hero {
+  min-height: calc(50vh - 3.25rem); }
+
+.hero.is-small.top-hero {
+  min-height: calc(25vh - 3.25rem); }
+
+.hero {
+  overflow: hidden; }
 
 .hero.has-background {
   position: relative;
@@ -8929,7 +8970,13 @@ ul.toc > li > ul > li {
 
 .hero-foot {
   z-index: 42;
-  background: whitesmoke; }
+  background: rgba(245, 245, 245, 0.9); }
+
+.search-item {
+  display: none; }
+
+.search-res {
+  display: block; }
 
 .square-3-hero {
   height: calc(100vw/3); }
@@ -8999,3 +9046,6 @@ h3.ov {
   filter: grayscale(100%); }
   .ov-img > img {
     object-fit: cover !important; }
+
+iframe.timeline {
+  height: 650px; }

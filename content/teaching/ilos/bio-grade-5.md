@@ -14,9 +14,8 @@ tags = ["biology", "year-5", "biomolecules", "what-is-life", "metabolism", "micr
 
 # What is Life?
 
-## Levels of Organisation
-
-
+## Fundamental Themes
+### Order & organisation
 - Explain the concepts of system (part <=> whole) & emergence.
 - Classify (parts of) living things according to their level of biological organisation (cells, tissues, organs, organ systems, organism, population, community, ecosystem, biosphere)
 
@@ -37,6 +36,20 @@ graph TD
       class A,B,C,D,E,F,G,H,I,J,K,L myNodes;
       classDef myNodes stroke-width:0px,font-family:Source Code Pro,font-weight:400, fill:#F8B195;
 {{</mermaid>}}
+
+
+### Growth, Development and Reproduction
+
+### Interactions, Regulation
+
+### Evolutionary adaptation
+- Regulation
+
+## The Scientific Method
+- Hypothesis, Prediction, Test
+- Hypothesis vs. theory
+- Different types of data: quantitative vs. qualitative
+
 
 # Biomolecules
 > **Prerequisites - Water**
