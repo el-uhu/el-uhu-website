@@ -1,0 +1,27 @@
+{
+  "name": "el-uhu-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean-theme": "rm -r /themes/bulma-base/assets && mkdir /themes/bulma-base/assets",
+    "git": "git add . && git commit -m",
+    "postgit": "git push --all",
+    "build": "snap run hugo",
+    "postbuild" : "npm run git -- 'rebuild site'",
+    "server": "snap run hugo server",
+    "start" : "npm run server",
+    "say-hello": "echo 'Hello World'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/el-uhu/el-uhu-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/el-uhu/el-uhu-website/issues"
+  },
+  "homepage": "https://github.com/el-uhu/el-uhu-website#readme"
+}
