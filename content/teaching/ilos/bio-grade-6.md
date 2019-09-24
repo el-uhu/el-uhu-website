@@ -37,8 +37,8 @@ following terms. They are your working vocabulary.
 ## Mitosis
 
 #### Key Learning Outcomes
-- How do cells divide their nuclei? Describe the specialised apparatus used by cells to divide their nuclei, and explain how _chromatids, centrosomes_, and the _spindle_ interact to give rise to two diploid daughter cells. What is the role of the spindle apparatus? What is the spindle apparatus made of? How are centromeres and centrosomes different? What is their role in mitosis? Where in the cell can you find them? What are the poles of the cell?
-- The stages of mitosis List the stages of mitosis in the correct order, and describe how you could identify them in a microscopy image, if you could see and distinguish between chromatin, microtubules and the nuclear envelope.
+- **How do cells divide their nuclei?** Describe the specialised apparatus used by cells to divide their nuclei, and explain how _chromatids, centrosomes_, and the _spindle_ interact to give rise to two diploid daughter cells. What is the role of the spindle apparatus? What is the spindle apparatus made of? How are centromeres and centrosomes different? What is their role in mitosis? Where in the cell can you find them? What are the poles of the cell?
+- **The stages of mitosis** List the stages of mitosis in the correct order, and describe how you could identify them in a microscopy image, if you could see and distinguish between chromatin, microtubules and the nuclear envelope.
 
 ## Meiosis
 

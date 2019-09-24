@@ -24,3 +24,9 @@ As a scientist, I'm interested in the Origin of Life, chemical computers and com
     standard  = "/img/logo.svg"
     notext = "/img/logo.svg"
     heroImg = "/img/luki-full.jpg"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  class = "classes"
+  nativespeaker = "nativespeakers"

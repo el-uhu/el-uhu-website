@@ -1,0 +1,128 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-list{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "aside" }}
+{{ end }}
+
+{{ define "main" }}
+<div class="column is-half has-navbar-fixed-top has-no-padding">
+  <section class="section">
+    <div id="filter">
+      <div class="">
+        <h2>Classes: </h2>
+        {{ range .Site.Taxonomies.classes }}
+        <a class="button is-light filter-btn" id="{{ .Page.Title }}">{{ .Page.Title }}</a>
+        {{ end }}
+      </div>
+      <div class="">
+        <h2>Native Speakers:</h2>
+        {{ range .Site.Taxonomies.nativespeakers }}
+        <a class="button is-light filter-btn" id="{{ .Page.Title }}">{{ .Page.Title }}</a>
+        {{ end }}
+      </div>
+      <div class="">
+        <h2>Time:</h2>
+        <a class="button is-light time-filter-btn" id="future-btn">Future</a>
+        <a class="button is-light time-filter-btn" id="past-btn">Past</a>
+      </div>
+      <div class="">
+        <h2>Reset</h2>
+        <a class="button is-light deselect-btn" id="clear-all-selectors">Deselect all</a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="columns is-multiline">
+      {{ range (.Pages.GroupByDate "2006-01-02").Reverse }}
+        {{ range .Pages.ByParam "lesson" }}
+        <div class="column is-12 has-no-padding">
+          <div class="card lesson-card {{ delimit .Params.classes ' ' }} {{ delimit .Params.nativespeakers ' '}}" data-date="{{ .Params.date }}">
+            {{ partial "lesson-card.html" . }}
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}
+
+{{ define "custom-js"}}
+<script type="text/javascript">
+
+  var activeFilters = [];
+
+  function applyFilters(activeFilters){
+    $('.lesson-card').hide();
+    if (activeFilters.length > 0){
+      $('.lesson-card.' + activeFilters.join(".")).show();
+    } else {
+      $('.lesson-card').show()
+    }
+  }
+
+  function addToFilters(activeFilters, d){
+    return activeFilters.push(d);
+  }
+
+  function removeFromFilters(activeFilters, d){
+    var index = activeFilters.indexOf(d);
+    if (index > -1) {
+      activeFilters.splice(index, 1);
+    };
+    return activeFilters;
+  }
+
+  $("#filter a.filter-btn").each(function() {
+    $(this).addClass("is-active")
+  });
+
+  $("#filter a.filter-btn").each(function() {
+    $(this).on("click", function(){
+      var filtertag = $(this).attr('id');
+      if ($(this).hasClass("is-active")){
+        addToFilters(activeFilters, filtertag);
+        applyFilters(activeFilters);
+        $(this).removeClass("is-active")
+      } else {
+        removeFromFilters(activeFilters, filtertag);
+        applyFilters(activeFilters);
+        $(this).addClass("is-active")
+      }
+    });
+  });
+
+  $("#filter a.deselect-btn").each(function() {
+    $(this).on("click", function(){
+      if ($(this).hasClass("is-active")){
+        activeFilters = [];
+        $("#filter a.filter-btn").each(function() {
+          $(this).addClass("is-active")
+        })
+        applyFilters(activeFilters);
+        $(this).removeClass("is-active")
+        $(this).text("Deselect all")
+      } else {
+        activeFilters = [];
+        $("#filter a.filter-btn").each(function() {
+          addToFilters(activeFilters, $(this).attr('id'));
+          $(this).removeClass("is-active")
+        })
+        applyFilters(activeFilters);
+        $(this).addClass("is-active")
+        $(this).text("Select all")
+      }
+    });
+  });
+
+
+
+
+
+</script>
+{{ end }}

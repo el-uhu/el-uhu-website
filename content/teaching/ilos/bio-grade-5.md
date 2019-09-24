@@ -11,25 +11,41 @@ type = ""
 tags = ["biology", "year-5", "biomolecules", "what-is-life", "metabolism", "microbiology", "metabolism"]
 +++
 
+# The Scientific Method
+- Hypothesis, Prediction, Test
+- Hypothesis vs. theory
+- Different types of data: quantitative vs. qualitative
 
 # What is Life?
 
 ## Fundamental Themes
 ### Order & organisation
-- Explain the concepts of system (part <=> whole) & emergence.
-- Classify (parts of) living things according to their level of biological organisation (cells, tissues, organs, organ systems, organism, population, community, ecosystem, biosphere)
+
+**Basic Definitions** You should be able to provide a definition of the following terms. They are your working vocabulary.
+
+- Organelle
+- Cell
+- Tissue
+- Organ
+- Organ System
+- Organism
+- Species
+- Population
+- Community
+- Ecosystem
+- Biosphere
 
 {{<mermaid>}}
 graph TD
-      B-->A[fas:fa-globe-europe Biosphere</br><small>The Earth</small>]
-      C-->B[fas:fa-city Ecosystem - <small>All living things and their physical surroundings in a given area </small>]
-      D-->C[fas:fa-kiwi-bird fas:fa-tree fas:fa-bug Community - <small>Interacting populations</small>]
-      E-->D[fas:fa-kiwi-bird fas:fa-kiwi-bird fas:fa-kiwi-bird Population - <small> All members of a species in a given habitat</small>]
-      F-->E[fas:fa-kiwi-bird Organism - <small>A single individual</small>]
-      G-->F[fas:fa-heart fas:fa-tint Organ system - <small><i>Organs that work togehter to perform a function</i></small>]
+      B-->A[fas:fa-globe-europe Biosphere]
+      C-->B[fas:fa-city Ecosystem]
+      D-->C[fas:fa-kiwi-bird fas:fa-tree fas:fa-bug Community]
+      E-->D[fas:fa-kiwi-bird fas:fa-kiwi-bird fas:fa-kiwi-bird Population]
+      F-->E[fas:fa-kiwi-bird Organism]
+      G-->F[fas:fa-heart fas:fa-tint Organ system]
       H-->G[fas:fa-heart Organ]
-      I-->H[fas:fa-grip-horizontal Tissue - <small><i>Cells working together to perform a function </i></small>]
-      J-->I[fas:fa-dot-circle Cell - <small><i>The basic unit of life </i></small>]
+      I-->H[fas:fa-grip-horizontal Tissue]
+      J-->I[fas:fa-dot-circle Cell]
       K-->J[fas:fa-circle Organelle]
       L[fas:fa-atom Atom]-->K[fas:fa-dna Molecule]
 
@@ -37,18 +53,21 @@ graph TD
       classDef myNodes stroke-width:0px,font-family:Source Code Pro,font-weight:400, fill:#F8B195;
 {{</mermaid>}}
 
+- Explain the concepts of system (part <=> whole) & emergence.
+- Classify (parts of) living things according to their level of biological organisation (cells, tissues, organs, organ systems, organism, population, community, ecosystem, biosphere)
 
 ### Growth, Development and Reproduction
 
 ### Interactions, Regulation
 
+**Basic Definitions** You should be able to provide a definition of the following terms. They are your working vocabulary.
+
+- Responsiveness
+- Homeostasis
+- Locomotion
+
 ### Evolutionary adaptation
 - Regulation
-
-## The Scientific Method
-- Hypothesis, Prediction, Test
-- Hypothesis vs. theory
-- Different types of data: quantitative vs. qualitative
 
 
 # Biomolecules
@@ -77,7 +96,7 @@ graph TD
 
 #### Key Learning Outcomes
 - **Compare and contrast composition (bulding blocks), function and shape of nucleic acids, proteins, lipids and carbohydrates** using a table.
-- **RNA vs DNA** Wow are RNA and DNA different from a structural and a functional viewpoint?
+- **RNA vs DNA** How are RNA and DNA different from a structural and a functional viewpoint?
 - **The Genetic Code** What is a gene? What do we need genes for? How many genes does a human have? How are DNA, RNA and proteins related? How can 20 amino acids be encoded using just four letters?
 - **Watson Crick Model** Describe the 3D structure of DNA. Include the following terms in your description: _nucleotide, sugar-phosphate-backbone, strand, base pairing, helix_
 - In spite of being close to 2m long in a human cell, DNA is too small to observe directly. How do we know what we know about the structure of nucleic acids?

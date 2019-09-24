@@ -1,0 +1,36 @@
+<header class = "card-top has-background-white">
+  <div class="card-content {{ .Params.type }}" id="{{ .Date }}">
+    <div class="columns">
+      <div class="column is-4 has-text-left">
+        {{ with .Date }}
+        <span class="menu-label has-text-info">{{ .Format "02.01.2006" }}</span>
+        {{ end }}
+        <br>
+        <span class="menu-label has-text-info">lesson {{ .Params.lesson }}</span>
+      </div>
+      <div class="column is-8 has-text-right">
+        {{ $topic := .Param "topic"}}
+        <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/topics/{{ $topic }}/">
+          <span class="menu-label">
+            #{{ $topic }}
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+<section class = "card-center has-background-light">
+  <div class="card-content">
+    <div class="content">
+      <a href="{{ .Permalink }}">
+        <p class="title is-4 has-text-primary ">{{ delimit .Params.classes ", "}} | {{ .Params.counter }} - {{ .Title }}</p>
+        <p class="subtitle is-6 has-text-grey">{{ delimit .Params.nativespeakers ", "}}</p>
+      </a>
+    </div>
+  </div>
+</section>
+<section class = "card-bottom">
+  <div class="content has-padding-1em">
+    {{ .Content }}
+  </div>
+</section>
